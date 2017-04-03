@@ -1,1 +1,62 @@
 /*styles for assignment 3*/
+body {
+  background: #f7bb38;
+}
+h1{
+  color: #116005;
+  text-align: center;
+}
+p{
+  text-align: center;
+  text-decoration: underline;
+  color: #116005;
+}
+div.header{
+  background-image: url("./imgs/pikanyan.gif");
+  background-position: left;
+  background-repeat: no-repeat;
+  border-style: ridge;
+  border-width: medium;
+  border-color: #116005;
+}
+.grid{
+  column-width: 300;
+  -webkit-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 50px;
+  column-gap: 50px;
+  -webkit-column-rule: 3px outset #000000;
+  column-rule: 3px outset #000000;
+}
+div.grid div{
+  height: 400px;
+  float: left;
+}
+div.col1{
+  text-align: center;
+  background: #7e9978;
+  width: 250px;
+  border-style: solid;
+  border-width: thin;
+}
+div.col2{
+  text-align: center;
+  background: #7e9978;
+  width: 250px;
+  border-style: solid;
+  border-width: thin;
+}
+div.col3{
+  text-align: center;
+  background: #7e9978;
+  width: 250px;
+  border-style: solid;
+  border-width: thin;
+}
+div.col4{
+  text-align: center;
+  background: #7e9978;
+  width: 250px;
+  border-style: solid;
+  border-width: thin;
+}
